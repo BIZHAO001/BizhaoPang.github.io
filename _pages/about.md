@@ -39,7 +39,7 @@ Workshop on Autonomous Driving](https://cvpr2023.wad.vision/).
 
 ## Recent Highlights
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2026</div><img src='images/r2se.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2026</div><img src='images/r2se_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Reinforced Refinement with Self-Aware Expansion for End-to-End Autonomous Driving**
