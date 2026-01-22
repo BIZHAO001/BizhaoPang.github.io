@@ -54,6 +54,21 @@ Workshop on Autonomous Driving](https://cvpr2023.wad.vision/).
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Thesis</div><img src='images/thesis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Prediction guided decision-making for autonomous driving**
+
+**Haochen Liu**
+
+**Ph.D. Thesis**
+
+[**Thesis**](https://dr.ntu.edu.sg/entities/publication/68243edd-fd28-4742-a682-10aa09f29fa3) 
+
+-  A structured framework comprising a series of methodologies for Prediction Guided Decision-Making (PG-DM) in autonomous driving.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2025</div><img src='images/hpp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
