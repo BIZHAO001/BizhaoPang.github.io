@@ -17,11 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am pursuing a Ph.D. in the School of Mechanical and Aerospace Engineering at Nanyang Technological University. My research endeavors are based in the [Automated Driving and Human-Machine System (AutoMan) Lab](https://lvchen.wixsite.com/automan), which is led by Prof. Chen Lyu. 
+I received my Ph.D. from the School of Mechanical and Aerospace Engineering at Nanyang Technological University. My research endeavors are based in the [Automated Driving and Human-Machine System (AutoMan) Lab](https://lvchen.wixsite.com/automan), which is led by Prof. Chen Lyu. During my Ph.D. journey, I was fortunate to join and serve as intern researcher at [OpenDriveLab](https://opendrivelab.com/) led by Prof. Hongyang Li. I will join Xiaomi EV as postdoc and senior machine learning engineer.
 
-My research center on the realm of autonomous driving and machine learning. The objective is to develop AI agents for **predictive decisions-making** in autonomous driving techniques. My research interest include deep learning and reinforcement learning for prediction, planning, and decision-making framework modeling. 
+My research center on the realm of autonomous driving and machine learning. The objective is to develop AI agents for **prediction-guided decisions-making (PD-DM)** in autonomous driving techniques. My research interest include reinforcement learning for world modeling, planning, and decision-making framework modeling for autonomous systems. 
 
 # 🔥 News
+- *2026.01*: &nbsp;🎉🎉 Our R2SE paper has been accepted by T-PAMI. Cheers!
+- *2025.11*: &nbsp;🎉🎉 Successfully passed the Ph.D Oral Defense.
+- *2025.06*: &nbsp;🎉🎉 Our team received the [3rd Place of 2024 Waymo Open Dataset Interaction Prediction Challenge](http://cvpr2025.wad.vision/). Check out more for our [team report](https://storage.googleapis.com/waymo-uploads/files/research/2025%20Technical%20Reports/2025%20WOD%20Interaction%20Prediction%20Challenge%20-%20Honorable%20Mention%20-%20BeTop-ens.pdf) and original implementation based on our [BeTop paper]((https://arxiv.org/abs/2409.18031).
 - *2024.06*: &nbsp;🎉🎉 Our team won the [Champion of 2024 Waymo Open Dataset Occupancy and Flow Prediction Challenge](http://cvpr2024.wad.vision/). Check out more for our [team report](https://storage.googleapis.com/waymo-uploads/files/research/2024%20Technical%20Reports/2024%20WOD%20Occupancy%20Flow%20Challenge%20-%201st%20Place%20-%20DOPP.pdf) and original implementation based on our [HPP paper](https://arxiv.org/abs/2402.02426).
 - *2023.08*: &nbsp;🎉🎉 Our GameFormer paper has been selected as Oral Presentation for International Conference on Computer Vision (ICCV)! Code is also available!
 - *2023.07*: &nbsp;🎉🎉 Our ITSC special session on [learning-powered prediction and decision-making](https://sites.google.com/view/itsc-lpad) has received 17 paper submissions, all of which were accepted. Congrats and looking forward to seeing you in Spain in September!
@@ -35,6 +38,21 @@ Workshop on Autonomous Driving](https://cvpr2023.wad.vision/).
 # 📝 Publications 
 
 ## Recent Highlights
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2026</div><img src='images/r2se.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Reinforced Refinement with Self-Aware Expansion for End-to-End Autonomous Driving**
+
+**Haochen Liu**, Tianyu Li, Haohan Yang, Li Chen, Chaojun Wang, Ke Guo, Haochen Tian, Hongchen Li, Hongyang Li, Chen Lv
+
+**IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), 2026**
+
+[**Paper**](https://ieeexplore.ieee.org/document/11353028) \| [**Project**](https://huggingface.co/unknownuser6666/R2SE_model) 
+
+-  A reinforced finetuning engine for end-to-end autonomous driving that enhances tail case performance while minimizing catastrophic forgetting.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2025</div><img src='images/hpp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -118,6 +136,8 @@ Zhiyu Huang\*, **Haochen Liu**\*, Chen Lv
 - *2024.06* **Prediction and Planning: Integration Methodology and Challenges** in CVPR'24 wE2EAD, [OpenDriveLab@Shanghai AI Lab](https://opendrivelab.com/), Shanghai. [Link](https://www.bilibili.com/video/BV11b421J76g/?spm_id_from=333.337.search-card.all.click) 
 
 ## Journal
+- [Multimodal Multi-Agent Joint Traffic Simulation With Collision and Run-Off-Road Mitigation](https://ieeexplore.ieee.org/abstract/document/11153761) Xiaoyu Mo, Jintian Ge, **Haochen Liu**, Weigao Sun, Chen Lv, **IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2025**
+
 - [Human-Guided Continual Learning for Personalized Decision-Making of Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/10844014) Haohan Yang, Yanxin Zhou, Jingda Wu, **Haochen Liu**, Lie Yang, Chen Lv, **IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2025**
 
 - [Safety-aware human-in-the-loop reinforcement learning with shared control for autonomous driving](https://ieeexplore.ieee.org/abstract/document/10596046) Wenhui Huang, **Haochen Liu**, Zhiyu Huang, Chen Lv, **IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2024**
@@ -136,17 +156,25 @@ Zhiyu Huang\*, **Haochen Liu**\*, Chen Lv
 
 
 ## Conference
+
+- [NeRC: Neural Ranging Correction through Differentiable Moving Horizon Location Estimation](https://arxiv.org/pdf/2508.14336), Xu Weng, KV Ling, **Haochen Liu**, Bingheng Wang, Kun Cao, **ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys), 2026** 
+
 - [Learning Interaction-aware Motion Prediction Model for Decision-making in Autonomous Driving](https://arxiv.org/abs/2302.03939), Zhiyu Huang, **Haochen Liu**, Jingda Wu, Wenhui Huang, Chen Lv, **IEEE International Conference on Intelligent Transportation Systems (ITSC), 2023** ([**Best Paper Award Runner-up**](https://2023.ieee-itsc.org/best-paper-awards/)) [![](https://img.shields.io/github/stars/MCZhi/Predictive-Decision?style=social&label=Code Stars)](https://github.com/MCZhi/Predictive-Decision)
 
-- [Dynamic Edge Caching via Online Meta-RL](https://ieeexplore.ieee.org/abstract/document/10191608/) Yinan Mao, Shiji Zhou, **Haochen Liu**, Zhi Wang, Wenwu Zhu, **International Joint Conference on Neural Networks, 2023**
 
 - [Improved Deep Reinforcement Learning with Expert Demonstrations for Urban Autonomous Driving](https://arxiv.org/abs/2102.09243), **Haochen Liu**, Zhiyu Huang, Jingda Wu, Chen Lv, **IEEE Intelligent Vehicles Symposium (IV), 2022** 
 
 ## Preprints
-- Coming soon
+
+- [Simscale: Learning to drive via real-world simulation at scale](https://arxiv.org/pdf/2511.23369), Haochen Tian, Tianyu Li, **Haochen Liu**, Jiazhi Yang, Yihang Qiu, Guang Li, Junli Wang, Yinfeng Gao, Zhang Zhang, Liang Wang, Hangjun Ye, Tieniu Tan, Long Chen, Hongyang Li [![](https://img.shields.io/github/stars/OpenDriveLab/SimScale?style=social&label=Code Stars)](https://github.com/OpenDriveLab/SimScale)
+
+- [DecompGAIL: Learning Realistic Traffic Behaviors with Decomposed Multi-Agent Generative Adversarial Imitation Learning](https://arxiv.org/pdf/2510.06913), Ke Guo, **Haochen Liu**, Xiaojun Wu, Jia Pan, Chen Lv
+  
+- [iPad: Iterative Proposal-centric End-to-End Autonomous Driving](https://arxiv.org/pdf/2505.15111) Ke Guo, **Haochen Liu**, Xiaojun Wu, Jia Pan, Chen Lv [![](https://img.shields.io/github/stars/Kguo-cs/iPad?style=social&label=Code Stars)](https://github.com/Kguo-cs/iPad)
 
 
 # 🎖 Honors and Awards
+- *2025.06* [3rd Place Winner, Waymo Open Dataset Interaction Prediction Challenge](http://cvpr2025.wad.vision/), CVPR Workshop on Autonomous Driving
 - *2024.06* [1st Place Winner, Waymo Open Dataset Occupancy and Flow Prediction Challenge](http://cvpr2024.wad.vision/), CVPR Workshop on Autonomous Driving
 - *2023.06* [Innovation Award, nuPlan Planning Challenge](https://opendrivelab.com/AD23Challenge.html#nuplan_planning), CVPR Workshop on End-to-End Autonomous Driving 
 - *2023.06* [3rd Place Winner, Waymo Open Dataset Motion Prediction Challenge](http://cvpr2023.wad.vision/), CVPR Workshop on Autonomous Driving
@@ -154,10 +182,10 @@ Zhiyu Huang\*, **Haochen Liu**\*, Chen Lv
 - *2022.06* [2nd Place Winner, Waymo Open Dataset Occupancy and Flow Prediction Challenge](http://cvpr2022.wad.vision/), CVPR Workshop on Autonomous Driving
 
 # 📖 Educations
-- *2021.08 - Now*, Doctor of Philosophy, Nanyang Technological University, Singapore 
+- *2021.08 - 2025.11*, Doctor of Philosophy, Nanyang Technological University, Singapore 
 - *2017.09 - 2021.06*, Bachelor of Engineering, Automation, Beihang University, Beijing, China
 
 # 💻 Internships
-- *2024-Now*, Research Intern (Remote), [OpenDriveLab](https://opendrivelab.com/), China.
+- *2024.01 - 2025.12*, Intern Researcher, [OpenDriveLab](https://opendrivelab.com/), Hong Kong SAR, China.
 - *2021.06 - 2021.08* VC Intern, [MiraclePlus](https://www.miracleplus.com/), Beijing, China
-- *2020.10 - 2021.06*, Algorithm Engineer (DATA-EDU), ByteDance, Beijing, China.
+- *2020.10 - 2021.06*, Machine Learning Engineer (DATA-EDU), ByteDance, Beijing, China.
