@@ -17,190 +17,162 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I received my Ph.D. from the School of Mechanical and Aerospace Engineering at Nanyang Technological University. My research endeavors are based in the [Automated Driving and Human-Machine System (AutoMan) Lab](https://lvchen.wixsite.com/automan), which is led by Prof. Chen Lyu. During my Ph.D. journey, I was fortunate to join and serve as intern researcher at [OpenDriveLab](https://opendrivelab.com/) led by Prof. Hongyang Li. I will join Xiaomi EV as postdoc and senior machine learning engineer.
+Research Fellow at the [Air Traffic Management Research Institute (ATMRI)](https://www.ntu.edu.sg/atmri), Nanyang Technological University, Singapore, specializing in safe and robust AI, optimization under uncertainty, multi-agent systems, and human–AI collaboration. My research develops principled AI and optimization methods for safety-critical air transportation systems, with applications in Air Traffic Management (ATM), Advanced Air Mobility (AAM), and Air Traffic Flow Management (ATFM). My research has been published in leading transportation, safety, and AI journals, including Transportation Research Part C/E, IEEE T-ITS, IEEE TVT, RESS, AEI, AST, CJA, as well as at top AI conferences such as AAMAS and ICTAI. With 14 years of R&D experience in ATM/AAM and AI, my long-term research vision is to advance the transformation of air transportation systems toward autonomous, safe & resilient, and human–AI hybrid operations.
 
-My research center on the realm of autonomous driving and machine learning. The objective is to develop AI agents for **prediction-guided decisions-making (PD-DM)** in autonomous driving techniques. My research interest include reinforcement learning for world modeling, planning, and decision-making framework modeling for autonomous systems. 
+**Research Interests:** Optimization under uncertainty, scheduling and routing, multi-agent coordination and learning, human–AI teaming. *Theories and Tools:* Advanced mathematical optimization, probabilistic modeling, statistical learning, deep reinforcement learning, metaheuristic algorithms, and large language models (LLMs). *Applications:* Urban air mobility (UAM), air traffic management (ATM), autonomous systems, drone logistics network, and safety-critical human–AI hybrid systems.
 
+<span class='anchor' id='-news'></span>
 # 🔥 News
-- *2026.01*: &nbsp;🎉🎉 Our R2SE paper has been accepted by T-PAMI. Cheers!
-- *2025.11*: &nbsp;🎉🎉 Successfully passed the Ph.D Oral Defense.
-- *2025.06*: &nbsp;🎉🎉 Our team received the [3rd Place of 2024 Waymo Open Dataset Interaction Prediction Challenge](http://cvpr2025.wad.vision/). Check out more for our [team report](https://storage.googleapis.com/waymo-uploads/files/research/2025%20Technical%20Reports/2025%20WOD%20Interaction%20Prediction%20Challenge%20-%20Honorable%20Mention%20-%20BeTop-ens.pdf) and original implementation based on our [BeTop paper](https://arxiv.org/abs/2409.18031).
-- *2024.06*: &nbsp;🎉🎉 Our team won the [Champion of 2024 Waymo Open Dataset Occupancy and Flow Prediction Challenge](http://cvpr2024.wad.vision/). Check out more for our [team report](https://storage.googleapis.com/waymo-uploads/files/research/2024%20Technical%20Reports/2024%20WOD%20Occupancy%20Flow%20Challenge%20-%201st%20Place%20-%20DOPP.pdf) and original implementation based on our [HPP paper](https://arxiv.org/abs/2402.02426).
-- *2023.08*: &nbsp;🎉🎉 Our GameFormer paper has been selected as Oral Presentation for International Conference on Computer Vision (ICCV)! Code is also available!
-- *2023.07*: &nbsp;🎉🎉 Our ITSC special session on [learning-powered prediction and decision-making](https://sites.google.com/view/itsc-lpad) has received 17 paper submissions, all of which were accepted. Congrats and looking forward to seeing you in Spain in September!
-- *2023.07*: &nbsp;🎉🎉 Our GameFormer paper has been accepted by International Conference on Computer Vision (ICCV)! We will be releasing the code soon, so stay tuned for updates.
-- *2023.07*: &nbsp;🎉🎉 Two of our papers on predictive decision-making/planning have been accepted by the International Conference on Intelligent Transportation Systems (ITSC)!
-- *2023.06*: &nbsp;🎉🎉 Our team won the innovation award in the nuPlan Planning Challenge! Check out our [report](https://opendrivelab.com/e2ead/AD23Challenge/Track_4_AID.pdf) and [presentation](https://youtu.be/ZwhXilQKULY?t=1204) on our GameFormer Planner.
-- *2023.06*: &nbsp;🎉🎉 Our team secured third place in the Waymo Open Dataset Motion Prediction Challenge! Our [report](https://storage.googleapis.com/waymo-uploads/files/research/2023%20Technical%20Reports/MP_3rd_GRT-R36.pdf) is available on [CVPR 2023
-Workshop on Autonomous Driving](https://cvpr2023.wad.vision/).
-- *2022.12*: &nbsp;🎉🎉 Our team won the Most Innovative Award and 3rd Place in both Track 1 and Track 2 at NeurIPS Driving SMARTS Competition! Check out our [presentation](https://smarts-project.github.io/assets/docs/aid_driving_smarts.pdf) on predictive decision-making at the [official competition site](https://smarts-project.github.io/archive/2022_nips_driving_smarts/).
 
-# 📝 Publications 
+- *2026.01*: &nbsp;🎉 AAMAS 2026 full paper accepted for Oral presentation on constrained multi-agent reinforcement learning for safe trajectory planning.
+- *2025.05*: &nbsp;🎉 Extended abstract accepted at AAMAS 2025 on decentralized deep reinforcement learning for cooperative multi-agent flight trajectory planning in adverse weather.
+- *2024.12*: &nbsp;🎉 Joined ATMRI as Research Fellow. Leading AI-assisted Regional ATFM and AI4ATM projects.
+- *2023.10*: &nbsp;🎉 Successfully defended Ph.D. thesis on risk-based route planning and decision-making for UAS in urban environments.
+
+<span class='anchor' id='-publications'></span>
+# 📝 Publications
 
 ## Recent Highlights
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2026</div><img src='images/r2se_teaser.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+**In-flight multi-aircraft trajectory replanning under dynamic thunderstorm cells using decentralized deep reinforcement learning.**  
+**Bizhao Pang**, Xinting Hu, Mingcheng Zhang, Sameer Alam, Guglielmo Lulli  
+*Advanced Engineering Informatics*, 65 (2025): 103157. DOI available.
 
-**Reinforced Refinement with Self-Aware Expansion for End-to-End Autonomous Driving**
+**Stochastic route optimization under dynamic ground risk uncertainties for safe drone delivery operations.**  
+**Bizhao Pang**, Xinting Hu, Wei Dai, Kin Huat Low  
+*Transportation Research Part E*, 192 (2024): 103717. DOI available.
 
-**Haochen Liu**, Tianyu Li, Haohan Yang, Li Chen, Chaojun Wang, Ke Guo, Haochen Tian, Hongchen Li, Hongyang Li, Chen Lv
+**Chance-constrained UAM traffic flow optimization with fast disruption recovery under uncertain waypoint occupancy time.**  
+**Bizhao Pang**, Kin Huat Low, Vu N. Duong  
+*Transportation Research Part C*, 161 (2024): 104547. DOI available.
 
-**IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), 2026**
+## Journal Papers
 
-[**Paper**](https://ieeexplore.ieee.org/document/11353028) \| [**Project**](https://huggingface.co/unknownuser6666/R2SE_model) 
+- **Bizhao Pang**, Xinting Hu, Mingcheng Zhang, Sameer Alam, Guglielmo Lulli. In-flight multi-aircraft trajectory replanning under dynamic thunderstorm cells using decentralized deep reinforcement learning. *Advanced Engineering Informatics*, 65 (2025): 103157. (SCI, IF: 9.9)
+- **Bizhao Pang**, Xinting Hu, Wei Dai, Kin Huat Low. Stochastic route optimization under dynamic ground risk uncertainties for safe drone delivery operations. *Transportation Research Part E*, 192 (2024): 103717. (SCI, IF: 8.8)
+- **Bizhao Pang**, Kin Huat Low, Vu N. Duong. Chance-constrained UAM traffic flow optimization with fast disruption recovery under uncertain waypoint occupancy time. *Transportation Research Part C*, 161 (2024): 104547. (SCI, IF: 7.9)
+- **Bizhao Pang**, Kin Huat Low, Chen Lv. Adaptive conflict resolution for multi-UAV 4D routes optimization using stochastic fractal search algorithm. *Transportation Research Part C*, 2022. (SCI, IF: 7.9)
+- **Bizhao Pang**, Xinting Hu, Wei Dai, Kin Huat Low. UAV path optimization with an integrated cost assessment model considering third-party risks in metropolitan environments. *Reliability Engineering & System Safety*, 2022: 108399. (SCI, IF: 11.0)
+- **Bizhao Pang**, Wei Dai, Xinting Hu, Fuqing Dai, Kin Huat Low. Multiple air route crossing waypoints optimization via artificial potential field method. *Chinese Journal of Aeronautics*, 34(4), 2021. (SCI, IF: 5.7)
+- Xinting Hu, **Bizhao Pang**, Sameer Alam, Mir Feroskhan. U-Aerodrome: Data-driven and risk-bounded airspace reconfiguration for safe integration of Urban Air Mobility at aerodrome. *Transportation Research Part C* (2026), Accepted. (SCI, IF: 7.9)
+- Mingcheng Zhang, **Bizhao Pang**, Chao Yan, Mir Feroskhan, Chen Lv. Real-time avoidance of building and dynamic geo-fencing for urban air mobility using deep reinforcement learning. *IEEE Transactions on Intelligent Transportation Systems*, (2025). (SCI, IF: 8.4)
+- Wei Dai, **Bizhao Pang**, Kin Huat Low. Conflict-free four-dimensional path planning for urban air mobility considering airspace occupancy. *Aerospace Science and Technology*, 119 (2021): 107154. (SCI, IF: 5.8)
+- Xinting Hu, **Bizhao Pang**, Fuqing Dai, Kin Huat Low. Risk assessment model for UAV cost-effective path planning in urban environments. *IEEE Access*, 8 (2020): 150162–150173. (SCI, IF: 3.6)
+- Yu Wu, Kin Huat Low, **Bizhao Pang**, Qingyu Tan. Swarm-based 4D path planning for drone operations in urban environments. *IEEE Transactions on Vehicular Technology*, 70(8), 7464–7479, 2021. (SCI, IF: 7.1)
+- Sen Du, Gang Zhong, Fei Wang, **Bizhao Pang**, Honghai Zhang, Qingyu Jiao. Safety risk modelling and assessment of civil unmanned aircraft system operations: A comprehensive review. *Drones*, 8(8), 354. (SCI, IF: 4.8)
+- Fuqing Dai, **Bizhao Pang**, Yuandi Zhao. Optimization model of air route crossing angles with varying preferences. *Journal of Southwest Jiaotong University*, 54(6), 2019. (EI, in Chinese)
+- Fuqing Dai, **Bizhao Pang**, Zhi Ren, Yuandi Zhao. Congestion risk on airway crossing point for tube-type operation. *Journal of Wuhan University of Technology*, 40(2), 2018. (In Chinese)
+- Fuqing Dai, **Bizhao Pang**, Jie Yuan, Yuandi Zhao. Air-rail traffic flow distribution model based on super-road network. *Journal of Wuhan University of Technology (Transportation Science and Engineering)*, 41(5), 2017. (In Chinese)
 
--  A reinforced finetuning engine for end-to-end autonomous driving that enhances tail case performance while minimizing catastrophic forgetting.
-</div>
-</div>
+## Conference Papers
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Thesis</div><img src='images/thesis.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- **Bizhao Pang**, Mingcheng Zhang, Xinting Hu, Thinh Pham, Sameer Alam, Guglielmo Lulli. Constrained Multi-Agent Reinforcement Learning with MAF-Net for Safe Trajectory Planning. *25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)*, Paphos, Cyprus, May 25–29, 2026. **Full paper, Oral presentation.**
+- **Bizhao Pang**, Xinting Hu, Mingcheng Zhang, Sameer Alam, Guglielmo Lulli. Decentralized Deep Reinforcement Learning for Cooperative Multi-Agent Flight Trajectory Planning in Adverse Weather. *24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2025)*, Detroit, Michigan, USA, May 19–23, 2025.
+- **Bizhao Pang**, Xinting Hu, Yi Yang Poh, Kin Huat Low. Population density estimation for dynamic ground risk assessment of drone operations. *IEEE/AIAA DASC 2023*, Barcelona.
+- **Bizhao Pang**, Mingcheng Zhang, Chao Deng, Kin Huat Low. Investigation of flight technical error for UAV separation requirement. *AIAA AVIATION 2022*.
+- **Bizhao Pang**, C.H. John Wang, Kin Huat Low. Framework of level-of-autonomy-based concept of operations: UAS capabilities. *IEEE/AIAA DASC 2021*.
+- **Bizhao Pang**, Wei Dai, Thu Ra, Kin Huat Low. A concept of airspace configuration and operational rules for UAS. *IEEE/AIAA DASC 2020*.
+- **Bizhao Pang**, Ng Ee Meng, Kin Huat Low. UAV trajectory estimation and deviation analysis for contingency management. *AIAA AVIATION 2020*, Nevada.
+- **Bizhao Pang**, Qingyu Tan, Kin Huat Low. A risk model based traffic network for adaptive urban airspace management. *AIAA AVIATION 2020*, Nevada.
+- **Bizhao Pang**, Ng Ee Meng, Kin Huat Low. Contingency management of urban UTM based on airspace contexts. *ICAO UAS Industry Symposium*, Montreal, 2019.
+- Xinting Hu, **Bizhao Pang**, Mingcheng Zhang, Sameer Alam, Guglielmo Lulli. An independent DDPG method with shared neural networks for cooperative multi-aircraft rerouting. *37th International Conference on Tools with Artificial Intelligence (ICTAI)*, Athens, Greece, November 2025.
+- Xinting Hu, **Bizhao Pang**, Mir Feroskhan. Airspace reconfiguration for UAM: A spatial-temporal analysis within aerodromes. *IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)*, Edmonton, Canada, 2024.
+- Xinting Hu, Yu Wu, **Bizhao Pang**. Path planning for drone delivery in dense building environments. *IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)*, Bilbao, Spain, 2023.
+- Lewis Lee, **Bizhao Pang**, Kin Huat Low. Environmental data analytics for safe drone operations in urban environments. *AIAA AVIATION 2022*.
+- Xinting Hu, **Bizhao Pang**, Kin Huat Low. Wind patterns analysis for safe UAV operations using statistical approaches. *IEEE/AIAA DASC 2022*.
+- Wei Dai, **Bizhao Pang**, Kin Huat Low. Accessibility analysis of UAVs near airports with a 4D airspace management concept. *IEEE/AIAA DASC 2020*, San Antonio.
 
-**Prediction guided decision-making for autonomous driving**
+## Forthcoming Publications
 
-**Haochen Liu**
+- **Bizhao Pang**, Mingcheng Zhang, Xinting Hu, Sameer Alam, Guglielmo Lulli. Constrained Multi-Agent Reinforcement Learning with Multi-Head Action Filtering for Safe Aircraft Trajectory Planning (2026), Under 1st revision.
+- **Bizhao Pang**, Mingcheng Zhang, Sameer Alam. LLM-Guided Multi-Agent Reinforcement Learning with Safety Constraints (2026), Working paper.
+- Xinting Hu, **Bizhao Pang**, Sameer Alam, Mir Feroskhan. U-SAFE: UAM Safe Integration into Aerodrome via Bio-Inspired and Reinforcement Learning-Based Trajectory Planning (2026), Under 1st revision.
 
-**Ph.D. Thesis**
-
-[**Thesis**](https://dr.ntu.edu.sg/entities/publication/68243edd-fd28-4742-a682-10aa09f29fa3) 
-
--  A structured framework comprising a series of methodologies for Prediction Guided Decision-Making (PG-DM) in autonomous driving.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2025</div><img src='images/hpp.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Hybrid-Prediction Integrated Planning for Autonomous Driving**
-
-**Haochen Liu**, Zhiyu Huang, Wenhui Huang, Haohan Yang, Xiaoyu Mo, Chen Lv
-
-**IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), 2025**
-
-[**Paper**](https://ieeexplore.ieee.org/abstract/document/10833731/) \| [**Project**](https://github.com/georgeliu233/HPP) \| [![](https://img.shields.io/github/stars/georgeliu233/HPP?style=social&label=Code Stars)](https://github.com/georgeliu233/HPP)
-
--  A collborative design and optimization framework for end-to-end autonomous driving system that integrates hybrid prediction forms and motion planning.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/betopnet.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Reasoning Multi-Agent Behavioral Topology for Interactive Autonomous Driving**
-
-**Haochen Liu**, Li Chen, Yu Qiao, Chen Lv, Hongyang Li
-
-**Advances in Neural Information Processing Systems (NeurIPS), 2024**
-
-[**Paper**](https://arxiv.org/abs/2409.18031) \| [**Project**](https://github.com/OpenDriveLab/BeTop) \| [![](https://img.shields.io/github/stars/OpenDriveLab/BeTop?style=social&label=Code Stars)](https://github.com/OpenDriveLab/BeTop) 
-
--  A synergistic framework for interactive behavior reasoning that enhances multi-agent prediction and planning.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV (Oral) 2023</div><img src='images/gameformer.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**GameFormer: Game-theoretic Modeling and Learning of Transformer-based Interactive Prediction and Planning for Autonomous Driving**
-
-Zhiyu Huang\*, **Haochen Liu**\*, Chen Lv
-
-**IEEE/CVF International Conference on Computer Vision (ICCV Oral), 2023**
-
-[**Paper**](https://arxiv.org/abs/2303.05760) \| [**Project**](https://mczhi.github.io/GameFormer/) \| [![](https://img.shields.io/github/stars/MCZhi/GameFormer?style=social&label=Code Stars)](https://github.com/MCZhi/GameFormer) \| **GameFormer Planner** [![](https://img.shields.io/github/stars/MCZhi/GameFormer-Planner?style=social&label=Code Stars)](https://github.com/MCZhi/GameFormer-Planner) 
-
--  We address the interaction prediction problem by formulating it with hierarchical game theory and implementing it with Transformer networks.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ITSC 2023</div><img src='images/opgp.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Occupancy Prediction-Guided Neural Planner for Autonomous Driving**
-
- **Haochen Liu**, Zhiyu Huang, Chen Lv
-
-**IEEE International Conference on Intelligent Transportation Systems (ITSC), 2023**
-
-[**Paper**](https://arxiv.org/abs/2305.03303)\| [**Zhihu**](https://zhuanlan.zhihu.com/p/630045890)\| [**Project**](https://github.com/georgeliu233/OPGP) \| [![](https://img.shields.io/github/stars/georgeliu233/OPGP?style=social&label=Code Stars)](https://github.com/georgeliu233/OPGP) 
-
--  We propose a learning-based prediction-guided motion planner, that imitative planning trajectory is refined by transformed occupancy predictions in an intergated network.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2023</div><img src='images/strajnet.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Multi-modal Hierarchical Transformer for Occupancy Flow Field Prediction in Autonomous Driving**
-
- **Haochen Liu**, Zhiyu Huang, Chen Lv
-
-**IEEE International Conference on Robotics and Automation (ICRA), 2023**
-
-[**Paper**](https://ieeexplore.ieee.org/abstract/document/10160855) \| [**Project**](https://github.com/georgeliu233/STrajNet) \| [![](https://img.shields.io/github/stars/georgeliu233/STrajNet?style=social&label=Code Stars)](https://github.com/georgeliu233/STrajNet) 
-
--  We develop a multi-modal hierarchial Transformer sturcture for long-term occupancy and flow prediction fusing visual and vector features from perception.
-</div>
-</div>
-
-## Talks
-- *2024.12* **Reasoning Multi-Agent Behavioral Topology for Interactive Autonomous Driving*** in [ADHeart](www.zdjszx.com)
-- *2024.06* **Interactive Prediction and Planning for Autonomous Driving: Method and Thoughts** in [ADHeart](www.zdjszx.com), online. [Link](https://www.bilibili.com/opus/943962468011474950?spm_id_from=333.999.0.0)
-- *2024.06* **Prediction and Planning: Integration Methodology and Challenges** in CVPR'24 wE2EAD, [OpenDriveLab@Shanghai AI Lab](https://opendrivelab.com/), Shanghai. [Link](https://www.bilibili.com/video/BV11b421J76g/?spm_id_from=333.337.search-card.all.click) 
-
-## Journal
-- [Multimodal Multi-Agent Joint Traffic Simulation With Collision and Run-Off-Road Mitigation](https://ieeexplore.ieee.org/abstract/document/11153761) Xiaoyu Mo, Jintian Ge, **Haochen Liu**, Weigao Sun, Chen Lv, **IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2025**
-
-- [Human-Guided Continual Learning for Personalized Decision-Making of Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/10844014) Haohan Yang, Yanxin Zhou, Jingda Wu, **Haochen Liu**, Lie Yang, Chen Lv, **IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2025**
-
-- [Safety-aware human-in-the-loop reinforcement learning with shared control for autonomous driving](https://ieeexplore.ieee.org/abstract/document/10596046) Wenhui Huang, **Haochen Liu**, Zhiyu Huang, Chen Lv, **IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2024**
-
-- [Augmenting Reinforcement Learning with Transformer-based Scene Representation Learning for Decision-making of Autonomous Driving](https://arxiv.org/abs/2208.12263), **Haochen Liu**, Zhiyu Huang, Xiaoyu Mo, Chen Lv, **IEEE Transactions on Intelligent Vehicles (T-IV), 2024** [![](https://img.shields.io/github/stars/georgeliu233/Scene-Rep-Transformer?style=social&label=Code Stars)](https://github.com/georgeliu233/Scene-Rep-Transformer)
-  
-- [Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving](https://arxiv.org/abs/2207.10422), Zhiyu Huang, **Haochen Liu**, Jingda Wu, Chen Lv, **IEEE Transactions on Neural Networks and Learning Systems (T-NNLS), 2023** [![](https://img.shields.io/github/stars/MCZhi/DIPP?style=social&label=Code Stars)](https://github.com/MCZhi/DIPP)
-
-- [Map-Adaptive Multimodal Trajectory Prediction Using Hierarchical Graph Neural Networks](https://dspace.lib.cranfield.ac.uk/bitstream/handle/1826/19830/Map-adaptive_multimodal_trajectory_prediction-2023.pdf?sequence=1), Xiaoyu Mo, Yang Xing, **Haochen Liu**, Chen Lv, **IEEE Robotics and Automation Letters (RA-L), 2023**
-  
-- [Conditional Predictive Behavior Planning with Inverse Reinforcement Learning for Human-like Autonomous Driving](https://arxiv.org/abs/2212.08787), Zhiyu Huang, **Haochen Liu**, Jingda Wu, Chen Lv, **IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2023**
-  
-- [Map-Adaptive Multimodal Trajectory Prediction via Intention-Aware Unimodal Trajectory Predictors](https://ieeexplore.ieee.org/abstract/document/10323217/) Xiaoyu Mo, **Haochen Liu**, Zhiyu Huang, Xiuxian Li, Chen Lv, **IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2023**
-
-- [Quantitative identification of driver distraction: A weakly supervised contrastive learning approach](https://ieeexplore.ieee.org/abstract/document/10265761/) Haohan Yang, **Haochen Liu**, Zhongxu Hu, Anh-Tu Nguyen, Thierry-Marie Guerra, Chen Lv, **IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2023**
-
-
-## Conference
-
-- [NeRC: Neural Ranging Correction through Differentiable Moving Horizon Location Estimation](https://arxiv.org/pdf/2508.14336), Xu Weng, KV Ling, **Haochen Liu**, Bingheng Wang, Kun Cao, **ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys), 2026** 
-
-- [Learning Interaction-aware Motion Prediction Model for Decision-making in Autonomous Driving](https://arxiv.org/abs/2302.03939), Zhiyu Huang, **Haochen Liu**, Jingda Wu, Wenhui Huang, Chen Lv, **IEEE International Conference on Intelligent Transportation Systems (ITSC), 2023** ([**Best Paper Award Runner-up**](https://2023.ieee-itsc.org/best-paper-awards/)) [![](https://img.shields.io/github/stars/MCZhi/Predictive-Decision?style=social&label=Code Stars)](https://github.com/MCZhi/Predictive-Decision)
-
-
-- [Improved Deep Reinforcement Learning with Expert Demonstrations for Urban Autonomous Driving](https://arxiv.org/abs/2102.09243), **Haochen Liu**, Zhiyu Huang, Jingda Wu, Chen Lv, **IEEE Intelligent Vehicles Symposium (IV), 2022** 
-
-## Preprints
-
-- [Simscale: Learning to drive via real-world simulation at scale](https://arxiv.org/pdf/2511.23369), Haochen Tian, Tianyu Li, **Haochen Liu**, Jiazhi Yang, Yihang Qiu, Guang Li, Junli Wang, Yinfeng Gao, Zhang Zhang, Liang Wang, Hangjun Ye, Tieniu Tan, Long Chen, Hongyang Li [![](https://img.shields.io/github/stars/OpenDriveLab/SimScale?style=social&label=Code Stars)](https://github.com/OpenDriveLab/SimScale)
-
-- [DecompGAIL: Learning Realistic Traffic Behaviors with Decomposed Multi-Agent Generative Adversarial Imitation Learning](https://arxiv.org/pdf/2510.06913), Ke Guo, **Haochen Liu**, Xiaojun Wu, Jia Pan, Chen Lv
-  
-- [iPad: Iterative Proposal-centric End-to-End Autonomous Driving](https://arxiv.org/pdf/2505.15111) Ke Guo, **Haochen Liu**, Xiaojun Wu, Jia Pan, Chen Lv [![](https://img.shields.io/github/stars/Kguo-cs/iPad?style=social&label=Code Stars)](https://github.com/Kguo-cs/iPad)
-
-
+<span class='anchor' id='-honors-and-awards'></span>
 # 🎖 Honors and Awards
-- *2025.06* [3rd Place Winner, Waymo Open Dataset Interaction Prediction Challenge](http://cvpr2025.wad.vision/), CVPR Workshop on Autonomous Driving
-- *2024.06* [1st Place Winner, Waymo Open Dataset Occupancy and Flow Prediction Challenge](http://cvpr2024.wad.vision/), CVPR Workshop on Autonomous Driving
-- *2023.06* [Innovation Award, nuPlan Planning Challenge](https://opendrivelab.com/AD23Challenge.html#nuplan_planning), CVPR Workshop on End-to-End Autonomous Driving 
-- *2023.06* [3rd Place Winner, Waymo Open Dataset Motion Prediction Challenge](http://cvpr2023.wad.vision/), CVPR Workshop on Autonomous Driving
-- *2022.12* [3rd Place Winner, Most Innovative Award, Driving SMARTS Competition](https://smarts-project.github.io/archive/2022_nips_driving_smarts/competition/), NeurIPS Competition Track \| [\[slides\]](https://smarts-project.github.io/assets/docs/aid_driving_smarts.pdf)
-- *2022.06* [2nd Place Winner, Waymo Open Dataset Occupancy and Flow Prediction Challenge](http://cvpr2022.wad.vision/), CVPR Workshop on Autonomous Driving
 
-# 📖 Educations
-- *2021.08 - 2025.11*, Doctor of Philosophy, Nanyang Technological University, Singapore 
-- *2017.09 - 2021.06*, Bachelor of Engineering, Automation, Beihang University, Beijing, China
+- *2020* NTU Research Student Scholarship, Nanyang Technological University
+- *2019* Best Master Thesis Award (Top 1%), Tianjin, China
+- *2019* Excellent Master Graduate Award, CAUC
+- *2018* Boeing Scholarship (Top 1%)
+- *2018* Excellent Postgraduate Student Certificate, CAUC
+- *2015–2018* A-Level Graduate Scholarship (3 consecutive years), CAUC
+- *2017* National Winner Award, Internet Innovation and Entrepreneurship Competition
+- *2014–2015* University Single Subject Scholarship of Innovation (2 consecutive years), CAUC
+- *2013* Excellent University Student Leader Honor Certificate, CAUC
 
-# 💻 Internships
-- *2024.01 - 2025.12*, Intern Researcher, [OpenDriveLab](https://opendrivelab.com/), Hong Kong SAR, China.
-- *2021.06 - 2021.08* VC Intern, [MiraclePlus](https://www.miracleplus.com/), Beijing, China
-- *2020.10 - 2021.06*, Machine Learning Engineer (DATA-EDU), ByteDance, Beijing, China.
+<span class='anchor' id='-education'></span>
+# 📖 Education
+
+- *2020.08 – 2023.10*, Doctor of Philosophy in Aerospace Engineering (AI and Intelligent Transportation), Nanyang Technological University, Singapore  
+  - Thesis: Risk-based route planning and decision-making for UAS in urban environments  
+  - Supervisors: Prof. Kin Huat Low, Prof. Vu N. Duong; Co-supervisor: Prof. Chen Lv
+- *2016.08 – 2019.03*, Master of Engineering (ATM and Mathematical Optimization), Civil Aviation University of China, Tianjin, China  
+  - Thesis: Large-scale air route network modelling and optimization  
+  - Supervisor: Prof. Fuqing Dai
+- *2012.08 – 2016.06*, Bachelor of Engineering in Transportation (Air Transportation Fundamentals), Civil Aviation University of China, Tianjin, China  
+  - Thesis: Unmanned aerial vehicle path planning using dynamic programming method
+
+<span class='anchor' id='-work-experience'></span>
+# 💼 Work Experience
+
+- *2023.12 – Present*, **Research Fellow**, Air Traffic Management Research Institute (ATMRI), NTU, Singapore  
+  - *AI-assisted Regional ATFM (Aug 2025 – Now)* — Tech Lead: Conceptualizing and developing a distributed AI-assisted cross-border ATFM system for ASEAN.  
+  - *AI4ATM (Apr 2024 – Now)* — Team Lead: Leading a cross-national team developing advanced AI models for resilient ATM under thunderstorms.  
+  - *UAM System Development (Dec 2023 – Apr 2025)* — Algorithm Scientist: Developed a safe and scalable AI-based UAM system for Singapore's highly urbanized airspace.
+- *2019.04 – 2020.08*, **Research Associate**, Air Traffic Management Research Institute (ATMRI), NTU, Singapore  
+  - *UTM System with AirMatrix Concept* — Team Lead: Developed a digital low-altitude urban airspace management system for UAM.  
+  - *Risk-based UAM Concept and Algorithm* — Algorithm Engineer: Developed risk-based concepts and planning algorithms for safe UAM operations.
+
+<span class='anchor' id='-research-projects'></span>
+# 🔬 Research Projects
+
+**AI for Resilient ATM and Cross-Border ATFM Systems**
+- *AI-Assisted Cross-Border Air Traffic Flow Management* (NRF, Singapore) Aug 2025 – Present — Technical Lead, AI Scientist (7 team members). Leading multidisciplinary research, coordinating with aviation authority and industry stakeholders.
+- *Singapore–Italy Collaborative Project: AI for Air Traffic Management (AI4ATM)* Apr 2024 – Present — Team Lead, AI Scientist (3 team members). Developing AI algorithms for multi-aircraft separation assurance, thunderstorm avoidance, and sequencing.
+- *Airspace and Air Traffic Flow Modeling and Optimization* (NSF, China) Sep 2016 – Mar 2019 — Data and Algorithm Engineer. Chinese Air Route Network Optimization; Terminal Airspace Optimization for Sustainable Aviation.
+
+**Low-Altitude UAM and AAM: Concepts, Research, and Development** (NRF, Singapore)
+- *Scalable and Robust UAM Scheduling and Disruption Recovery* Apr 2021 – Mar 2024 — Team Lead, AI Algorithm Researcher.
+- *Risk-based UAM Path Optimization Using Machine Learning* Jan 2022 – Mar 2024 — Team Lead, AI Algorithm Researcher.
+- *UTM Platform Development with AirMatrix Concept* Apr 2019 – Mar 2023 — Algorithm Engineer.
+- *UTM and ATM Integration in Low-Altitude Urban Airspace* Apr 2019 – Mar 2021 — Data Engineer.
+
+<span class='anchor' id='-showcase'></span>
+# 🎬 Showcase
+
+*This section is ready for you to add videos and figures to showcase your work. See instructions below.*
+
+To add a **video** (e.g., from YouTube or a local file):
+
+```html
+<div class="showcase-item">
+  <h4>Project Title</h4>
+  <p>Brief description of the work.</p>
+  <!-- YouTube embed -->
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+```
+
+To add a **figure/image**:
+
+```markdown
+![Project Figure](images/your-figure.png)
+*Caption: Description of your figure.*
+```
+
+**Example placeholder** — Replace with your own content:
+
+<div class="showcase-item" style="margin: 2em 0; padding: 1em; border: 1px solid #eee; border-radius: 8px;">
+  <h4>UAM Traffic Management System</h4>
+  <p>Safe and scalable AI-based UAM system for Singapore's urban airspace. Add your video or figure here.</p>
+  <!-- Uncomment and add your YouTube embed:
+  <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+  </div>
+  -->
+</div>
+
+*To add more showcase items: paste the HTML/Markdown blocks above and replace with your video IDs or image paths. Save your videos in `images/` or link to YouTube/Vimeo.*

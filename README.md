@@ -1,72 +1,89 @@
+# Bizhao Pang - Academic Homepage
 
-<h1 align="center">
-AcadHomepage
-</h1>
+Personal academic website for **Bizhao Pang**, Research Fellow at Air Traffic Management Research Institute (ATMRI), Nanyang Technological University.
 
-<div align="center">
+Based on [AcadHomepage](https://github.com/georgeliu233/georgeliu233.github.io) template.
 
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
+## 🚀 Quick Start - Deploy to GitHub Pages
+
+### 1. Create a new GitHub repository
+
+- Go to [GitHub](https://github.com/new)
+- Repository name: **`YOUR_USERNAME.github.io`** (e.g., `bizhaopang.github.io`)
+- Make it public, then Create repository
+
+### 2. Push this website to your repo
+
+```bash
+cd bizhao-pang-website
+git remote set-url origin https://github.com/YOUR_USERNAME/YOUR_USERNAME.github.io.git
+git add .
+git commit -m "Initial commit: Bizhao Pang academic website"
+git push -u origin main
+```
+
+### 3. Configure GitHub Pages
+
+- In your repo: **Settings → Pages**
+- Source: **Deploy from a branch**
+- Branch: **main** (or master), folder: **/ (root)**
+- Save — Your site will be live at `https://YOUR_USERNAME.github.io` in 1–2 minutes
+
+### 4. Update `_config.yml` before pushing
+
+Edit `_config.yml` and set:
+
+- **`repository`**: `YOUR_USERNAME.github.io`
+- **`googlescholar`**: Your Google Scholar URL (optional, for citation stats)
+- **`github`**: Your GitHub username
+- **`linkedin`**, **`researchgate`**: Add if desired
+
+## 📂 Add Videos and Figures (Showcase Section)
+
+### Add a YouTube video
+
+In `_pages/about.md`, find the Showcase section and add:
+
+```html
+<div class="showcase-item">
+  <h4>Your Project Title</h4>
+  <p>Brief description.</p>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+  </div>
 </div>
+```
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
+### Add a figure/image
 
-<p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
-</p>
+1. Save your image to `images/` (e.g., `images/my-figure.png`)
+2. In the Showcase section, add:
 
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
+```markdown
+![Caption](images/my-figure.png)
+*Figure: Description of your work.*
+```
 
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
+## 🔧 Run Locally (Optional)
 
-## Quick Start
+Requires [Ruby](https://www.ruby-lang.org/) and [Jekyll](https://jekyllrb.com/).
 
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
-        ```html
-        <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
-        ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
+```bash
+cd bizhao-pang-website
+bundle install
+bundle exec jekyll serve
+```
 
-## Debug Locally
+Open http://127.0.0.1:4000 in your browser.
 
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+## 📁 Project Structure
 
-# Acknowledges
+- `_config.yml` — Site configuration
+- `_pages/about.md` — Main content (About, News, Publications, etc.)
+- `_data/navigation.yml` — Navigation menu
+- `images/` — Photos and figures
+- `assets/css/main.scss` — Styles (including video showcase)
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+## 📧 Contact
+
+Bizhao Pang — bizhao001@e.ntu.edu.sg

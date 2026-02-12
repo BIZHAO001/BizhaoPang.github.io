@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Haochen Liu"
-description              : "Ph.D. at NTU. Focusing on World Modeling and Decision-making for Autonomous System."
-repository               : "georgeliu233.github.io"
+title                    : "Bizhao Pang"
+description              : "Research Fellow at ATMRI, NTU. Safe & robust AI, optimization under uncertainty, multi-agent systems for air transportation."
+repository               : "bizhao001.github.io"   # Must match: github.com/YOUR_USERNAME/YOUR_USERNAME.github.io
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,15 +21,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Haochen Liu"
-  avatar           : "images/android-chrome-192x192.png"
-  bio              : "Nanyang Technological University"
+  name             : "Bizhao Pang"
+  avatar           : "images/bizhao-pang.png"
+  bio              : "Air Traffic Management Research Institute (ATMRI), NTU"
   location         : "Singapore"
-  employer         :
+  employer         : "Nanyang Technological University"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=iizqKUsAAAAJ&hl=en"
-  email            : "haochen002@e.ntu.edu.sg"
-  researchgate     : "https://www.researchgate.net/profile/Haochen-Liu-14"
+  googlescholar    : "https://scholar.google.com.sg/citations?user=UCdpKs8AAAAJ&hl=en&oi=ao"
+  email            : "bizhao001@e.ntu.edu.sg"
+  researchgate     : ""  # Add your ResearchGate URL if desired
   uri              :
   bitbucket        :
   codepen          :
@@ -37,18 +37,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "georgeliu233"
+  github           : "bizhao001"   # Your GitHub username (from github.com/username)
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  linkedin         : ""  # Add your LinkedIn username if desired
+  dblp             :
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : 
@@ -136,7 +136,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Singapore # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
